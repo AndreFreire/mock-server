@@ -1,0 +1,21 @@
+{
+  "busca": {
+    "url": "https://busca-management-hml.azure-api.net",
+    "status": "custom",
+    "wait": 0,
+    "custom": [{
+      "path": "/path1/path2/path3",
+      "response": {
+        "teste": "teste123",
+        "tete": 123
+      },
+      "status": 200
+    }]
+  },
+  "saturno": {
+    "url": "http://xpto.com",
+    "status": "pass",
+    "wait": 0
+  },
+  "headers": ["apikey", "Authorizarion"]
+}
